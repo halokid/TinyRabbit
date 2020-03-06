@@ -1,0 +1,10 @@
+
+# ----------------------- for gateway ------------------------
+gwx_conf: /pathto/nginx.conf
+gwxReload: docker restart nginx
+
+# ----------------------- for tinyRabbit cli ------------------------
+addr: 8.8.8.8:9528
+addrTest: 8.8.8.8:9528
+
+

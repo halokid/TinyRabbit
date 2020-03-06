@@ -1,0 +1,16 @@
+PB=proto/gwx.pb.go
+
+all: client server
+
+server: $(PB)
+    go build server.go -o gwxServ
+client: $(PB)
+    go build client.go -o gwxClient
+
+$(PB):
+    protoc -I proto gwx.proto --go_out=plugins=grpc:proto
+
+clean:
+    rm -f $(PB) client server
+
+

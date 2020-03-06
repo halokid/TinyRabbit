@@ -1,0 +1,11 @@
+{
+  "proto": "../proto/gwx.proto",
+  "call": "proto.Gwx.GwxDo",
+  "c": 80000,
+  "n": 1000000,
+  "data": {"reqData": "{\"act\":\"setServer\",\"val\":\"xx-svc\"}"},
+  "M": "testdata/metadata.json",
+  "x": "5s",
+  "host": "8.8.8.8:9528"
+}
+

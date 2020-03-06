@@ -1,0 +1,11 @@
+[
+  {
+    "gwx_req": {
+      "reqData": "{\"act\":\"setServer\",\"val\":\"db-space\"}",
+      "req_data": "{\"act\":\"setServer\",\"val\":\"db-space\"}"
+    },
+    "rspData": "xxxx",
+    "rsp_data": "yyyyyy"
+  }
+]
+

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package proto;
+
+// 定义RPC服务
+service Gwx{
+  // 发送数据执行动作函数
+  rpc GwxDo (GwxReq) returns (GwxRsp) {}
+}
+
+// 请求的数据
+message GwxReq {
+  string reqData = 1;
+}
+
+// 返回的数据
+message GwxRsp {
+  string rspData = 1;
+}
+
+
+
