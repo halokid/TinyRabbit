@@ -1,4 +1,4 @@
-# TinyRabbit 基于Portainer API
+# TinyRabbit 基于Portainer API的容器调度工具
 
 本来想选用barge项目来用的，不过发现Barge只实现比较简单的显示功能，所以决定在此基础上增加一些功能，如下：
 - [x] 容器管理
